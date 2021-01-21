@@ -120,13 +120,13 @@ public class VarastoTest {
 
         assertEquals(0, varasto.getSaldo(), vertailuTarkkuus);
     }
-    //      @Test
-    //public void saldoStringina() {
-    //    
-//
-    //             System.out.println(varasto.toString());
-    //           System.out.println("saldo = " + varasto.getSaldo() + ", viel‰ tilaa " + varasto.paljonkoMahtuu());
-    //  assertEquals("saldo = " + varasto.getSaldo() + ", viel‰ tilaa " + varasto.paljonkoMahtuu(), varasto.toString(), vertailuTarkkuus);
-    //}
+          @Test
+    public void saldoStringina() {
+        
+
+                System.out.println(varasto.toString());
+               System.out.println("saldo = " + varasto.getSaldo() + ", viel‰ tilaa " + varasto.paljonkoMahtuu());
+      assertEquals("saldo = " + varasto.getSaldo() + ", viel√§ tilaa " + varasto.paljonkoMahtuu(), varasto.toString());
+    }
 
 }
