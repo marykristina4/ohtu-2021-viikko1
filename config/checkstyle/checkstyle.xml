@@ -11,6 +11,14 @@
    <property name='allowLineBreaks' value='true' />
 </module>
 <module name='Indentation' />
- <module name='RightCurly' />
+ <module name='LeftCurly' />
+     <module name="NestedForDepth">
+      <property name="max" value="0"/>
+    </module>
+
+    <module name="NestedIfDepth">
+      <property name="max" value="1"/>
+    </module>
+ 
 </module>
 </module>
